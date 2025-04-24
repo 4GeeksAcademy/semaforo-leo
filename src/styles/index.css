@@ -9,3 +9,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.poste {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .trafic-light {
+    width: 100px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .brillo {
+    opacity: 1;
+    box-shadow: 0 0 20px 5px white;
+  }
+  
